@@ -1,0 +1,47 @@
+# Fonts
+brew tap homebrew/cask-fonts
+
+# CLI tools and utilities
+brew "awscli"
+brew "coreutils"
+brew "bat"
+brew "eza"
+brew "fd"
+brew "fzf"
+brew "stylua"
+brew "pkg-config"
+brew "tmux"
+brew "tree"
+brew "neovim"
+brew "zoxide"
+
+# Programming languages and package managers
+cask "basictex"
+brew "lua"
+brew "python@3.12"
+brew "pyenv"
+brew "rbenv"
+brew "ruby-build"
+brew "rustup"
+brew "node"
+brew "pnpm"
+
+# Development tools
+brew "gh"
+brew "git"
+brew "git-friendly/git-friendly/git-friendly"
+brew "jesseduffield/lazygit/lazygit"
+brew "jesseduffield/lazydocker/lazydocker"
+
+# GUI applications
+cask "alfred"
+cask "bitwarden"
+cask "docker"
+cask "librewolf"
+cask "visual-studio-code"
+cask "wezterm"
+cask "obsidian"
+cask "notion"
+cask "joplin"
+cask "zettlr"
+cask "zotero"
