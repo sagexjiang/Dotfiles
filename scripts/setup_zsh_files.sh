@@ -17,6 +17,7 @@ setup_zsh_files() {
     cat > "$HOME/.config/zsh/.zshrc" << EOL
 # Source zsh dotfiles
 source "\$ZDOTDIR/env.zsh"
+source "$ZDOTDIR/.zprofile"
 source "\$ZDOTDIR/aliases.zsh"
 source" \$ZDOTDIR/functions.zsh"
 source "\$ZDOTDIR/plugins.zsh"
