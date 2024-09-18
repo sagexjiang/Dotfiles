@@ -15,19 +15,19 @@ run_step() {
 }
 
 main() {
-    echo "Starting setup"
-  
+    echo "Starting setup..."
+
     run_step "setup_homebrew"
-    run_step "setup_zsh"
-    run_step "setup_vscode"
-    run_step "setup_wezterm"
+    run_step "setup_zsh_files"
+    run_step "setup_macos_default"
     
     if [ ${#failed_steps[@]} -eq 0 ]; then
-        echo "Setup completed successfully"
+        echo "Setup completed successfully."
         echo "Please restart your terminal or run 'source ~/.zshenv' to apply changes"
     else
-        echo "Setup completed with errors"
+        echo "Setup completed with errors."
         echo "The following steps failed:"
+        
         for step in "${failed_steps[@]}"; do
             echo "- $step"
         done
